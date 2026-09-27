@@ -37,7 +37,6 @@ tags:
 The better the loop worked, the emptier the shelf for new players. Especially in big, popular cities. So eventually we've reached a state where there was a high probability that starting in a Capital City was making the start of the game unplayable. 
 For example **Berlin (85% of ALL shares in properties bought)**.
 
-
 ```mermaid
 flowchart TD
     A[More players acquired] --> B[More properties bought out]
@@ -55,7 +54,8 @@ flowchart TD
 
 - We had a system that was calculating the amount of shares available in properties throughout the city, it was a live system recalculating 2-3 times per day.
 - We had a possibility to check any given area/city on demand and we did that **before every big UA spend** in targeted countries.
-- I saw a lot of negative reviews from players - "I can't progress because I don't have cheap properties around me", "Can't start playing, all properties around me are bought up". Technically it was possible to play using marketplace (real time bidding against other players) but it was extremely hard and inefficient at lower levels.
+- I saw a lot of negative reviews from players - ***"I can't progress because I don't have cheap properties around me"***, ***"Can't start playing, all properties around me are bought up"***. 
+  Technically it was possible to play using marketplace (real time bidding against other players) but it was extremely hard and inefficient at lower levels.
 
 
 ---
@@ -65,23 +65,27 @@ flowchart TD
 **1. Geo-scoped surfacing**
 
 We've been showing the cheapest properties for new players that recently joined the game.
+
 *Why:* First session is extremely important and it can't depend on the marketplace feature where players might not even be able to compete.
 
 
 **2. Expanding search radius**
 
 Radius was automatically expanded if the game was not able to meet the criteria for new players (at least X properties that have free shares and are in a given price range).
+
 *Why:* We had to compromise between the "known" properties that player immediately recognizes as something close to their location and player has a thing to buy. I usually focused on the former because of the way our players engaged with the game, but in this case I've made an exception.
 
 **3. Reclamation from inactive players** 
 
 The most lucrative properties were sold to the market through our Marketplace or immediately to the bank if a player was inactive for more than 30 days.
+
 *Why:* Supply was frozen in the portfolio of inactive players so we had to make sure that it wouldn't rot there for eternity. This was not a perfect feature and it was done as a last measure.
 
 
 **4. Charles Landlord** 
 
 We've created a landlord persona - **Charles**. He was teaching new players how to play and allowing them to purchase his own artificial property as a FTUE mechanic that was later repurchased by him and the player earned a profit.
+
 *Why:* I wanted to add more narrative depth into the game and this idea of a cheeky, old, bald landlord was working quite well in our promos and marketing materials. Idea was to have a proper and 100% bulletproof mechanic for our new players so that even if the scarcity of properties was extreme in a specific location that player would still be able to start playing and earn some progress thanks to Charles.
 
 ---
