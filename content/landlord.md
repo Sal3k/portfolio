@@ -37,15 +37,8 @@ tags:
 The better the loop worked, the emptier the shelf for new players. Especially in big, popular cities. So eventually we've reached a state where there was a high probability that starting in a Capital City was making the start of the game unplayable. 
 For example **Berlin (85% of ALL shares in properties bought)**.
 
-```mermaid
-flowchart TD
-    A[More players acquired] --> B[More properties bought out]
-    B --> C[Scarcity rises]
-    C --> |for newcomers| D[Nothing affordable to buy]
-    C --> |for veterans| G[Higher value, better bid wars, more engagement and spend]
-    D --> E[Early drop-off - growth throttles itself]
-```
 
+![[mermaid-diagram.png]]
 
 ---
 
