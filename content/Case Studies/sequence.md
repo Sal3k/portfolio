@@ -89,5 +89,5 @@ The chart below showcase the improved FTUE.
 
 - I would make sure that we only download assets that are necessary for tutorial.
 - Adding more granulation from the start would be my best bet for the future in terms of FTUE.
-- We had minor issues as well with the first_open event - it was duplicated and our funnel was basically lying to us (our internal first_open was logged AFTER loading events). So we saw percentages and thought all was good, but once I dug deeper into numbers I found out that it was also an issue.
+- We had an issue with the `first_open` event - it was duplicated and our funnel was basically lying to us (our internal `first_open` was logged **AFTER** loading events). So we saw percentages and thought all was good, but once I dug deeper into numbers I found out that it was incorrect. In the future I would make sure that `first_open` is always default from the analytics provider.
 
