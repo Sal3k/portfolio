@@ -1,17 +1,19 @@
-# Quartz v5
+# kamilsalacinski.com
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Source for my portfolio site — case studies, small tools, and what I'm
+looking for next.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Live at **[kamilsalacinski.com](https://kamilsalacinski.com)**.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Structure
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- `content/` — the site's notes, edited as an Obsidian vault
+- `content/case-studies/` — long-form write-ups
+- `quartz.config.yaml` — site config
 
-## Sponsors
+## Built with
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+[Quartz v5](https://github.com/jackyzha0/quartz) by Jacky Zhao, deployed
+to GitHub Pages via the workflow in `.github/workflows/deploy.yml`.
+
+Site content is mine; the framework is Quartz's, MIT-licensed.
