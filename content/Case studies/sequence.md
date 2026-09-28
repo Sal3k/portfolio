@@ -76,7 +76,7 @@ The chart below showcase the improved FTUE.
 
 ## Measurement, honestly
 
-- We measured data before/after, nothing was tested, no time, no budget.
+- We measured data before/after.
 - Different UA traffic could affect the outcome, but we were focused on T1 US market so it wasn't really a big issue.
 
 ---
