@@ -27,7 +27,7 @@ subtitle: Landlord Real Estate Tycoon - supply scarcity and the first session
 
 ## The loop, and why it choked
 
-**Loop worked.** More players → more fierce competition for the same properties → rarity increases the value → owning true Apple HQ becomes a status good → engagement and spend grows. Product was more interesting and bid wars were more engaging the more players were playing.
+**Loop worked.** More players → more fierce competition for the same properties → rarity increases the value → owning true **Apple HQ** becomes a status good → engagement and spend grows. Product was more interesting and bid wars were more engaging the more players were playing.
 
 **And that's why it choked**. Real properties = finite supply. We can't build more real properties and we can't afford to wait for real life developers ;). 
 The better the loop worked, the emptier the shelf for new players. Especially in big, popular cities. So eventually we've reached a state where there was a high probability that starting in a Capital City was making the start of the game unplayable. 
@@ -91,8 +91,8 @@ We've created a landlord persona - **Charles**. He was teaching new players how 
 
 - **What we didn't do:** we measured before/after on cohorts, we didn't do a controlled AB test.
 - **Why:** We didn't have tools setup, issue was increasing in time so we had to act quickly. I went with my gut that those mechanics would work. The time pressure on the delivery was extremely high.
-- What it does not prove: seasonality, a freshness effect, changes in the traffic mix.
-- How I would approach it today: OEC, guardrails, decision criteria set up front, holdout.
+- **What it does not prove:** seasonality, a freshness effect, changes in the traffic mix.
+- **How I would approach it today:** OEC, guardrails, decision criteria set up front, holdout.
 
 ---
 

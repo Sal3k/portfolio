@@ -7,13 +7,13 @@ Heya! o/
 My name is Kamil. I’m from Poland, currently living in Kraków.  
 I’m looking for a role such as Senior Product Owner/Product Manager in a mobile digital space - apps and games are my wheelhouse. Remotely or hybrid in Kraków, and I’m available ASAP.
 
-I blend typical PM knowledge and experience with a mix of creating F2P economies, features, and monetization. These can be used in the digital app space to drive free → paid conversion, improve retention, improve pricing and paywall design or to create more engaging mobile games.
+I blend typical PM knowledge and experience with a mix of creating F2P economies, features, and monetization. These can be used in the digital app space to drive free → paid conversion, improve retention, pricing and paywall design or to create more engaging mobile games.
 
 You can check out the products that I’ve made as a PM/PO below:
 
 - [Landlord](https://play.google.com/store/apps/details?id=com.landlordgame.tycoon) - a multiplayer, location-based tycoon.
 - [Sequence World](https://play.google.com/store/apps/details?id=com.goliathgames.sequence) - board game adaptation of Goliath IP.
-- [Joking Hazard](https://play.google.com/store/apps/details?id=com.luckyduckgames.jokinghazard.playstorel) - board game adaptation of Cyanide & Happiness IP.
+- [Joking Hazard](https://play.google.com/store/apps/details?id=com.luckyduckgames.jokinghazard.playstore) - board game adaptation of Cyanide & Happiness IP.
 - [Get Rent](https://play.google.com/store/apps/details?id=co.reality.getrent) - Landlord’s successor.
 - [Ambient Sudoku](https://play.google.com/store/apps/details?id=com.southgames.sudokupremium) - small project built with a friend.
 
@@ -30,13 +30,13 @@ I also think like a game & economy designer by analyzing core systems, mechanics
 ### Decision-making process
 
 I decide based on cohorts and measurements before/after - and I can tell what this doesn’t prove and the limitations of this method.  
-This is obviously not a perfect approach, but given the specifics of companies that I worked in and budget, time, and capabilities that was the way to go.
+This is obviously not a perfect approach, but given the specifics of companies that I worked in and limited resources that was the way to go.
 I don’t hide from responsibilities. When we lack enough data to make an informed decision, I am able to make a judgment call.
 
 ### Living the dream, up to a point
 
-I created multiple games, and on some of them I failed to deliver good enough KPIs to keep them alive. So I had to kill projects and moved the team to other projects with a soft landing.  
-One of the projects I had to kill was really dear to me, as it was my first project created entirely in Unity - [Food Truck Tycoon](https://foodtrucktycoon.com/).
+I created multiple games, and on some of them I failed to deliver good enough KPIs to keep them alive. So I had to kill projects and moved the team to other initiatives with a soft landing.  
+One of the games I had to kill was really dear to me, as it was my first project created entirely in Unity - [Food Truck Tycoon](https://foodtrucktycoon.com/).
 
 ### Me, myself and AI
 
