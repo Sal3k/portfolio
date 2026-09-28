@@ -6,7 +6,8 @@ subtitle: Sequence - diagnosing and fixing the first-time user experience
 ## TL;DR
 
 - Sequence World - a mobile f2p adaptation of a Goliath board game.
-- 63% of all players dropped after first_open.
+- 63% of all players dropped after `first_open`.
+- Found issue with incorrectly tracked `first_open` event.
 - Technical issues connected to our internal asset server and session timeout.
 - D1 retention from **22% to 30%**, FTUE completion rate from **22% to 50%**.
 
@@ -55,8 +56,8 @@ We can see here that we were losing players on our internal asset server step.
 
 ## What we changed
 
-- we've fixed implementation of the asset server, and changed the way we downloaded assets, so now at the start we only downloaded mandatory files, so it was much quicker. The rest of the files were downloaded throughout the tutorial.
-- timeout was wrongly implemented and was creating a scenario where players were stuck and couldn't do anything (wrong timing 5s changed to 20s, and wrong behaviour).
+- We've fixed implementation of the asset server, and changed the way we downloaded assets, so now at the start we only downloaded mandatory files, so it was much quicker. The rest of the files were downloaded throughout the tutorial.
+- Timeout was wrongly implemented and was creating a scenario where players were stuck and couldn't do anything (wrong timing 5s changed to 20s, and wrong behaviour).
 
 ---
 
