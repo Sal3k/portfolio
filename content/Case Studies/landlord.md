@@ -1,10 +1,6 @@
 ---
 title: Keeping a finite world playable
 subtitle: Landlord Real Estate Tycoon - supply scarcity and the first session
-tags:
-  - case-study
-  - economy-design
-  - f2p
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: Small Tools
+draft: true
 ---
 ## MDK Plugin that adds tech prefix based on folder/template
 

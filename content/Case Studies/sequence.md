@@ -1,11 +1,6 @@
 ---
 title: Finding the leak
 subtitle: Sequence - diagnosing and fixing the first-time user experience
-tags:
-  - case-study
-  - ftue
-  - activation
-  - funnel
 ---
 
 ## TL;DR

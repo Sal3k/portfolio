@@ -1,8 +1,5 @@
 ---
 title: Kamil Sałaciński
-tags:
-  - economy-design
-  - f2p
 description: Senior Product Manager / Product Owner in F2P mobile — economy design, monetization, activation. Case studies, tools, and what I'm looking for next.
 ---
 Heya! o/
