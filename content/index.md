@@ -9,13 +9,26 @@ I’m looking for a role such as Senior Product Owner/Product Manager in a mobil
 
 I blend typical PM knowledge and experience with a mix of creating F2P economies, features, and monetization. These can be used in the digital app space to drive free → paid conversion, improve retention, pricing and paywall design or to create more engaging mobile games.
 
-You can check out the products that I’ve made as a PM/PO below:
+## Tech stack 
 
-- [Landlord](https://play.google.com/store/apps/details?id=com.landlordgame.tycoon) - a multiplayer, location-based tycoon.
-- [Sequence World](https://play.google.com/store/apps/details?id=com.goliathgames.sequence) - board game adaptation of Goliath IP.
-- [Joking Hazard](https://play.google.com/store/apps/details?id=com.luckyduckgames.jokinghazard.playstore) - board game adaptation of Cyanide & Happiness IP.
-- [Get Rent](https://play.google.com/store/apps/details?id=co.reality.getrent) - Landlord’s successor.
-- [Ambient Sudoku](https://play.google.com/store/apps/details?id=com.southgames.sudokupremium) - small project built with a friend.
+- **Analytics** — Firebase, BigQuery, Looker, Amplitude, Python.
+- **Product** — Jira, Confluence, ClickUp, Asana; Kanban and Scrum.
+- **Stores** — App Store Connect, Google Play Console: releases, Google/Apple communications, staged rollouts, IAP and subscription setup, regional pricing, ASO adjustments/tests, review analysis.  
+- **Ad monetization** — AppLovin MAX, Unity Ads, AdMob: initial configuration, placement design, eCPM and fill monitoring.  
+- **Attribution** — AppsFlyer: initial configuration, implementation test, reports & campaign analysis.
+- **Design** — Figma, Miro, Excalidraw, articy:draft.
+- **Engine** — Unity.
+- **Research** — PlaytestCloud, Discord, SurveyMonkey.
+- **AI** — Claude Code.
+
+
+You can check out the products that I’ve made as a **Product Manager / Product Owner** below:
+
+<img src="images/icons/landlord.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Landlord](https://play.google.com/store/apps/details?id=com.landlordgame.tycoon) — a multiplayer, location-based tycoon.
+<img src="images/icons/sequence-world.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Sequence World](https://play.google.com/store/apps/details?id=com.goliathgames.sequence) — board game adaptation of Goliath IP.
+<img src="images/icons/joking-hazard.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Joking Hazard](https://play.google.com/store/apps/details?id=com.luckyduckgames.jokinghazard.playstore) — board game adaptation of Cyanide & Happiness IP.
+<img src="images/icons/get-rent.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Get Rent](https://play.google.com/store/apps/details?id=co.reality.getrent) — Landlord’s successor.
+<img src="images/icons/ambient-sudoku.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Ambient Sudoku](https://play.google.com/store/apps/details?id=com.southgames.sudokupremium) — small project built with a friend.
 
 You can also check out some of the case studies I’ve written:
 
@@ -51,7 +64,7 @@ I started in the industry as a Community Manager years ago, so players and their
 
 ### Team player
 
-I often wear multiple hats, and I like to get my hands dirty instead of just managing and checking the outcome. I ran teams that include developers (frontend/backend), designers, testers, and analysts.
+I often wear multiple hats, and I like to get my hands dirty instead of just managing and checking the outcome. I ran teams that included developers (frontend/backend), designers, testers, and analysts. Teams of up to 15 people working in Kanban. Scrum by the book would be a bit of overkill for this team size.
 
 ## Outside work
 

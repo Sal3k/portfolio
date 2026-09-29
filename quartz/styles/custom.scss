@@ -1,3 +1,9 @@
 @use "./variables.scss" as *;
-
-// put your custom CSS here!
+li img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  vertical-align: middle;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
