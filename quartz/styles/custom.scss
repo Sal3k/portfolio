@@ -182,6 +182,104 @@ html body hr {
   border-top: 1px dashed var(--lightgray);
 }
 
+/* ---------- Terminal "tables" ---------- */
+
+/* Shell prompt line, shared look */
+%crt-prompt {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-family: var(--codeFont), monospace;
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-shadow: none;
+}
+
+/* Tech stack as a key/value config box */
+html body article h2#tech-stack + ul {
+  list-style: none;
+  border: 1px solid var(--lightgray);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+html body article h2#tech-stack + ul > li {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  column-gap: 1rem;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+}
+
+html body article h2#tech-stack + ul > li::marker {
+  content: none;
+}
+
+html body article h2#tech-stack + ul > li > strong {
+  font-weight: 400;
+  color: var(--gray);
+  text-transform: lowercase;
+}
+
+/* Prompt above the products list */
+html body article h2#tech-stack + ul + p::before {
+  @extend %crt-prompt;
+  content: "kamil@portfolio:~$ ls products/";
+  margin-top: 2.5rem;
+}
+
+/* Case studies as an `ls -la` listing */
+html body article p:has(+ ul > li > a[data-slug^="case-studies"])::before {
+  @extend %crt-prompt;
+  content: "kamil@portfolio:~$ ls -la case-studies/";
+  margin-top: 2.5rem;
+}
+
+html body article ul:has(> li > a[data-slug^="case-studies"]) {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+  border-top: 1px dashed var(--lightgray);
+}
+
+html body article ul:has(> li > a[data-slug^="case-studies"]) > li {
+  padding: 0.9rem 0;
+  border-bottom: 1px dashed var(--lightgray);
+  color: var(--gray);
+  font-size: 0.85rem;
+  text-shadow: none;
+}
+
+html body article ul:has(> li > a[data-slug^="case-studies"]) > li::marker {
+  content: none;
+}
+
+html body article ul:has(> li > a[data-slug^="case-studies"]) > li::before {
+  content: "-rw-r--r--  kamil  case-study.md";
+  display: block;
+  font-size: 0.8rem;
+}
+
+html body article ul:has(> li > a[data-slug^="case-studies"]) > li > a {
+  display: block;
+  margin: 0.2rem 0;
+  font-family: var(--headerFont), var(--codeFont), monospace;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  color: var(--dark);
+  text-decoration: none;
+  text-shadow: 0 0 10px color-mix(in srgb, var(--dark) 55%, transparent);
+}
+
+html body article ul:has(> li > a[data-slug^="case-studies"]) > li > a:hover {
+  text-decoration: underline;
+}
+
+@media all and ($mobile) {
+  html body article h2#tech-stack + ul > li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 /* Boot sequence block at the top of the homepage */
 .boot {
   font-size: 0.8rem;
