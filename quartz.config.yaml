@@ -238,10 +238,6 @@ plugins:
       priority: 10
   - source: "@quartz-community/footer"
     enabled: true
-    options:
-      links:
-        LinkedIn: https://www.linkedin.com/in/kamil-salacinski/
-        Email: mailto:k.salacinski93@gmail.com
     layout:
       position: footer
       priority: 50

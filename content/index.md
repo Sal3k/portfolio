@@ -2,11 +2,11 @@
 title: Kamil Sałaciński
 description: Senior Product Manager / Product Owner in F2P mobile — economy design, monetization, activation. Case studies, tools, and what I'm looking for next.
 ---
-<div class="boot">KS-BIOS v10.0 — memory check .... OK<br>loading modules: economy_design, monetization, activation ... ok<br>mounting /dev/portfolio on / ... ok</div>
+<div class="boot">KS-BIOS v10.0 — memory check .... OK<br>loading modules: economy_design, monetization, activation, product_management ... OK<br>mounting /dev/portfolio on  ... OK</div>
 
 Heya! o/
 
-My name is Kamil. I’m from Poland, currently living in Kraków.  
+My name is Kamil. I’m from Poland, currently living in Kraków. I spent **10 years** developing mobile games - strategy, tycoon, casual. 
 I’m looking for a role such as Senior Product Owner/Product Manager in a mobile digital space - apps and games are my wheelhouse. Remotely or hybrid in Kraków, and I’m available ASAP.
 
 I blend typical PM knowledge and experience with a mix of creating F2P economies, features, and monetization. These can be used in the digital app space to drive free → paid conversion, improve retention, pricing and paywall design or to create more engaging mobile games.
