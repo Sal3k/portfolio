@@ -2,6 +2,8 @@
 title: Kamil Sałaciński
 description: Senior Product Manager / Product Owner in F2P mobile — economy design, monetization, activation. Case studies, tools, and what I'm looking for next.
 ---
+<div class="boot">KS-BIOS v10.0 — memory check .... OK<br>loading modules: economy_design, monetization, activation ... ok<br>mounting /dev/portfolio on / ... ok</div>
+
 Heya! o/
 
 My name is Kamil. I’m from Poland, currently living in Kraków.  

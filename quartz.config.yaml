@@ -16,30 +16,33 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header:
+        name: VT323
+        weights: [400]
+      body: IBM Plex Mono
       code: IBM Plex Mono
     colors:
+      # "Light" mode = amber phosphor monitor, dark mode = green phosphor monitor
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#2a78d6"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#0b0803"
+        lightgray: "#4a3309"
+        gray: "#b98018"
+        darkgray: "#ffb000"
+        dark: "#ffc640"
+        secondary: "#ffd27a"
+        tertiary: "#fff0c2"
+        highlight: rgba(255, 176, 0, 0.12)
+        textHighlight: rgba(255, 176, 0, 0.35)
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#3987e5"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#040b06"
+        lightgray: "#14421f"
+        gray: "#25b350"
+        darkgray: "#33ff66"
+        dark: "#66ff8f"
+        secondary: "#9dffb6"
+        tertiary: "#d4ffe0"
+        highlight: rgba(51, 255, 102, 0.12)
+        textHighlight: rgba(51, 255, 102, 0.35)
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: false
@@ -110,8 +113,15 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      header: '"VT323", monospace'
+      body: '"IBM Plex Mono", monospace'
+      code: '"IBM Plex Mono", monospace'
+      interface: '"IBM Plex Mono", monospace'
+      useThemeFonts: false
+      fontOrigin: local
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: "abecedarium"
       mode: both
@@ -230,8 +240,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        LinkedIn: https://www.linkedin.com/in/kamil-salacinski/
+        Email: mailto:k.salacinski93@gmail.com
     layout:
       position: footer
       priority: 50
