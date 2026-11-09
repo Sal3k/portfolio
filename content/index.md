@@ -30,7 +30,11 @@ You can check out the products that I’ve made as a **Product Manager / Product
 <img src="images/icons/sequence-world.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Sequence World](https://play.google.com/store/apps/details?id=com.goliathgames.sequence) — board game adaptation of Goliath IP.
 <img src="images/icons/joking-hazard.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Joking Hazard](https://play.google.com/store/apps/details?id=com.luckyduckgames.jokinghazard.playstore) — board game adaptation of Cyanide & Happiness IP.
 <img src="images/icons/get-rent.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Get Rent](https://play.google.com/store/apps/details?id=co.reality.getrent) — Landlord’s successor.
-<img src="images/icons/ambient-sudoku.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Ambient Sudoku](https://play.google.com/store/apps/details?id=com.southgames.sudokupremium) — small project built with a friend.
+
+Solo Projects
+
+<img src="images/icons/ambient-sudoku.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[Ambient Sudoku](https://play.google.com/store/apps/details?id=com.southgames.sudokupremium) — a chill & relax sudoku project built with a friend.
+<img src="images/icons/the-alchemist.png" width="40" height="40" style="vertical-align:middle;border-radius:8px;margin-right:8px;object-fit:cover">[The Alchemist](https://play.google.com/store/apps/details?id=com.southgames.the.alchemist) — a narrative driven game written in **ink** and deployed via **capacitor**. Solo built and written.
 
 You can also check out some of the case studies I’ve written:
 
